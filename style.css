@@ -1,0 +1,138 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #050505;
+    color: white;
+    padding: 50px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.img-footer {
+    width: 80px;
+    align-items: bottom;
+}
+
+.copyright {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;  
+}
+
+img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;  
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+hr {
+    color:gray;
+    opacity: 15%;
+    width: auto;
+}
+
+.txt-top {
+    font-size: 85px;
+    line-height: 1;
+    margin-top: 100px;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+
+.section-container {
+    font-size: 20px;
+    width: auto;
+    padding: 20px;
+    margin-top: 50px;
+    vertical-align: top;
+}
+
+.arrow {
+    display:inline-block;
+    vertical-align: center;
+    font-size: 35px;
+    margin-left: 400px;
+}
+
+.section-description {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    margin-left: 360px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: normal;
+    color: gray;
+    margin-bottom:0px;
+    height: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    width: 1710px;
+}
+
+.portfolio-item {
+    width: calc(50% - 5px);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background-color: #101010;
+    height: 700px;
+}
